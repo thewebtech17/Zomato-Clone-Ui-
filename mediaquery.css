@@ -1,0 +1,182 @@
+@media (min-width: 320px) and (max-width: 800px) {
+   body{
+      width: 100vw;
+      min-height: 100vh;
+      overflow-x: hidden;
+   }
+   .header{
+      width: 100%;
+      /* border: 2px solid orange; */
+      /* margin: 2%; */
+   }
+   .searchbar{
+      visibility: hidden;      
+   }
+   .logo{
+      width: 50%;
+   }
+   .logsign{
+      margin-right: 8vw;
+
+   }
+   .logsign .btn1{
+      padding: 5px 5px;
+      font-size: 15px;
+   }
+   .home{
+      width: 100%;
+      text-align: center;
+      /* margin:2%; */
+      /* border: 2px solid black; */
+   }
+   .home .on{
+      font-size: 15px;
+   }
+   .dining{
+      width: 100%;
+      text-align: center;
+      /* margin: 2%; */
+      /* border: 2px solid red; */
+      height: 13vh;
+   }
+   .logo2,.logo3{
+      width: 70%;
+   }
+   .out p,.scooter p,.night p{
+      visibility: hidden;
+   }
+   .out,.scooter,.night{
+      width: 25%;
+      height: 10vh; 
+    }
+    .line{
+      width: 100%;
+      /* margin: 2%; */
+    }
+    .stybtn{
+      width: 100%;
+      text-align: center;
+      height: 5vh;
+      /* margin: 2%; */
+      /* border: 2px solid red; */
+    }
+    .sty{
+      padding: 5px 10px;
+    }
+    .inspiration{
+      /* border: 2px solid blue; */
+      width:100%;
+      height: 25vh;
+      margin-top: 3vh;
+      /* margin: 2%; */
+    }
+    .cntinsp{
+      width: 70%;
+      font-size: 13px;
+    }
+    .im{
+      width: 90%;
+      cursor: pointer;
+     }
+     .top{
+      width: 100%;
+      height: 30vh;
+      /* border: 2px solid black; */
+      /* margin:2%; */
+      margin-top: 4vh;
+      cursor: pointer;
+    }
+    .top h1{
+      font-size: 25px;
+ text-align: center;
+   }
+    .brands{
+      display: flex;
+      flex-wrap: wrap;
+      height: 20vh;
+      width: 100%;  
+      gap: 60px;
+      justify-content: center;
+      align-items: center;
+         /* border: 2px solid slateblue; */
+   }
+   .brands p{
+      font-size: 12px;
+   }
+   .brands .thr{
+      visibility: hidden;
+   }
+   .food{
+      width: 100%;
+    /* border: 2px solid blueviolet; */
+    height: fit-content;
+      /* margin: 2%; */
+   }
+   .food h1{
+      text-align: center;
+      font-size: 25px;
+      margin-top: 4vh;
+   }
+   .fud{
+      display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+   }
+   .andr{
+      margin-top: 4vh;
+      width:100%;
+      height:60vh;
+      /* border: 2px dotted orangered; */
+      cursor: pointer;
+      border-radius: 10px;
+      transition: 0.5s;
+   }
+   .ftr{
+      width: 100%;
+      height: 70vh;
+      /* margin: 2%; */
+      /* border: 2px solid red; */
+      margin-top: 8vh;
+      background-color: rgb(244, 246, 248);
+   }
+.ftr h1{
+   font-size: 20px;
+   padding-top: 3vh;
+}
+.lowest{
+   width: 100%;
+   /* margin: 2%; */
+   height: fit-content;
+}
+.vio img{
+   width: 35%;
+}
+.oiv{
+}
+.India,.English{
+   padding:5px 15px;
+   font-size: 10px;
+  margin-right: 3vw;
+}
+.nhb{
+   margin-top: 1vh;
+}
+.mny{
+   height: fit-content;
+   /* border: 2px solid black; */
+}
+.lowerberth{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.lw{
+   width: 50%;
+   margin-top: 2vh;
+   /* border: 2px solid red; */
+}
+.lw h1{
+   font-size: 20px;
+}
+  }
+  
